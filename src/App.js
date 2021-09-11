@@ -55,7 +55,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <header className="App-header">
+        {/*<header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             Hello {this.state.creature}
@@ -69,7 +69,7 @@ class App extends Component {
           >
             Learn React
           </a>
-        </header>
+        </header>*/}
         <h1>Monsters Rolodex</h1>
         <SearchBox 
           placeholder="search monsters" 
